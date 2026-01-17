@@ -34,6 +34,7 @@
       "id": "openai-image-generator",
       "name": "Create Image",
       "version": 1,
+      "featured": true,
       "created_at": "2026-01-17T00:00:00Z",
       "updated_at": "2026-01-17T00:00:00Z",
       "categories": [
@@ -61,6 +62,7 @@
       "id": "openai-markdown-converter",
       "name": "Convert to Markdown",
       "version": 1,
+      "featured": true,
       "created_at": "2026-01-17T00:00:00Z",
       "updated_at": "2026-01-17T00:00:00Z",
       "categories": [
@@ -88,6 +90,7 @@
       "id": "openai-selection-translator",
       "name": "Translate Selection",
       "version": 1,
+      "featured": true,
       "created_at": "2026-01-17T00:00:00Z",
       "updated_at": "2026-01-17T00:00:00Z",
       "categories": [
@@ -116,6 +119,7 @@
       "id": "openai-translator",
       "name": "Translate Text",
       "version": 1,
+      "featured": true,
       "created_at": "2026-01-17T00:00:00Z",
       "updated_at": "2026-01-17T00:00:00Z",
       "categories": [

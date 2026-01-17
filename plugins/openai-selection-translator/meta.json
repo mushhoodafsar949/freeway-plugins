@@ -3,6 +3,7 @@
   "created_at": "2026-01-17T00:00:00Z",
   "updated_at": "2026-01-17T00:00:00Z",
   "name": "Translate Selection",
+  "featured": true,
   "author": {
     "name": "Freeway Team",
     "url": "https://tryfreeway.com",
