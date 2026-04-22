@@ -1,3 +1,29 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# REPO SCOPE WHITELIST
+#
+# This .git lives at C:\Users\mushood.a but only tracks the freeway-plugins
+# project under Desktop\Personal Workspace\freeplay\freeway-plugins\. Without
+# the rules below, VS Code's Source Control view scans the entire home folder
+# (AppData, NTUSER.DAT, dotfiles, other projects, OneDrive, etc.) and surfaces
+# ~10K unrelated untracked files.
+#
+# Pattern: ignore everything at root, then selectively un-ignore each parent
+# on the path down to the project folder. Git requires un-ignoring every level
+# explicitly before descent rules apply.
+# ─────────────────────────────────────────────────────────────────────────────
+/*
+!/.gitignore
+!/Desktop/
+/Desktop/*
+!/Desktop/Personal Workspace/
+/Desktop/Personal Workspace/*
+!/Desktop/Personal Workspace/freeplay/
+/Desktop/Personal Workspace/freeplay/*
+!/Desktop/Personal Workspace/freeplay/freeway-plugins/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Freeway-plugins project rules (applied inside the whitelisted folder above)
+# ─────────────────────────────────────────────────────────────────────────────
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
